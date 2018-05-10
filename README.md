@@ -1,4 +1,6 @@
-![Image of Ubigraph](https://readtiger.com/img/wkp/en/Erlang_logo.png)
+<p align="center">
+  <img src="https://readtiger.com/img/wkp/en/Erlang_logo.png">
+</p>
 
 ## The Free Lunch Is Over
 
