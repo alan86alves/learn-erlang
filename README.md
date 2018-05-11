@@ -33,7 +33,7 @@
 # Install 
 
 ```bash
-	sudo /bin/su -c "echo 'deb http://binaries.erlang-solutions.com/debian raring contrib' >> /etc/apt/sources.list.d/erlang.list" 
+sudo /bin/su -c "echo 'deb http://binaries.erlang-solutions.com/debian raring contrib' >> /etc/apt/sources.list.d/erlang.list" 
 ```
 
 ## The Free Lunch Is Over
