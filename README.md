@@ -56,7 +56,7 @@ Eshell V5.10.4  (abort with ^G)
 1> 
 ```
 
-Type `q().` and press Enter to exit.
+Type `q().` to exit.
 
 ## The Free Lunch Is Over
 
