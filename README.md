@@ -33,8 +33,30 @@
 # Install 
 
 ```bash
-sudo /bin/su -c "echo 'deb http://binaries.erlang-solutions.com/debian raring contrib' >> /etc/apt/sources.list.d/erlang.list" 
+$ sudo /bin/su -c "echo 'deb http://binaries.erlang-solutions.com/debian raring contrib' >> /etc/apt/sources.list.d/erlang.list" 
 ```
+
+```bash
+$ wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
+```
+
+```bash
+$ sudo apt-get update
+```
+
+```bash
+$ sudo apt-get install esl-erlang
+```
+
+```bash
+$ erl
+Erlang R16B03-1 (erts-5.10.4) [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
+
+Eshell V5.10.4  (abort with ^G)
+1> 
+```
+
+Type `q().` and press Enter to exit.
 
 ## The Free Lunch Is Over
 
