@@ -33,19 +33,19 @@
 # Install 
 
 ```bash
-$ sudo /bin/su -c "echo 'deb http://binaries.erlang-solutions.com/debian raring contrib' >> /etc/apt/sources.list.d/erlang.list" 
+$ curl -O https://raw.githubusercontent.com/kerl/kerl/master/kerl
 ```
 
 ```bash
-$ wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
+chmod a+x kerl
 ```
 
 ```bash
-$ sudo apt-get update
+$ ./kerl list releases
 ```
 
 ```bash
-$ sudo apt-get install esl-erlang
+$ ./kerl build 19.0 19.0
 ```
 
 ```bash
