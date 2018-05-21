@@ -2,7 +2,7 @@
   <img src="https://readtiger.com/img/wkp/en/Erlang_logo.png">
 </p>
 
-# Introduction
+# Intro
 
 * Erlang, was developed by Ericson in 1986, the goal was to solve the telephony problem of the time. It has a VM called BEAM that is extraordinarily powerful. It was built to guarantee an availability of 99.9999999%. The name Erlang refers to "Ericsson Language".
 
@@ -32,31 +32,13 @@
 
 # Install 
 
-```bash
-$ curl -O https://raw.githubusercontent.com/kerl/kerl/master/kerl
-```
+Right now, the latest version of erlang is 20.1. You can download the .deb correct .deb file for your system.
 
-```bash
-chmod a+x kerl
-```
+* For Ubuntu 16.04 (64-bit)
+* For Ubuntu 16.04 (32-bit)
 
-```bash
-$ ./kerl list releases
-```
+Double click the .deb file and install the erlang. You can also find erlang setups for other versions and other distributions in Erlang Solutions.
 
-```bash
-$ ./kerl build 19.0 19.0
-```
-
-```bash
-$ erl
-Erlang R16B03-1 (erts-5.10.4) [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
-
-Eshell V5.10.4  (abort with ^G)
-1> 
-```
-
-Type `q().` to exit.
 
 ## The Free Lunch Is Over
 
