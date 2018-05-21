@@ -34,8 +34,8 @@
 
 Right now, the latest version of erlang is 20.1. You can download the .deb correct .deb file for your system.
 
-* For Ubuntu 16.04 (64-bit)
-* For Ubuntu 16.04 (32-bit)
+* [For Ubuntu 16.04 (64-bit)](http://github.com)
+* [For Ubuntu 16.04 (64-bit)](http://github.com)
 
 Double click the .deb file and install the erlang. You can also find erlang setups for other versions and other distributions in Erlang Solutions.
 
